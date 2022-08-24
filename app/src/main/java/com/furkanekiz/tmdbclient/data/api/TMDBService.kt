@@ -1,8 +1,8 @@
 package com.furkanekiz.tmdbclient.data.api
 
-import com.furkanekiz.tmdbclient.data.ArtistList
-import com.furkanekiz.tmdbclient.data.MovieList
-import com.furkanekiz.tmdbclient.data.TvShowList
+import com.furkanekiz.tmdbclient.data.model.artist.ArtistList
+import com.furkanekiz.tmdbclient.data.model.movie.MovieList
+import com.furkanekiz.tmdbclient.data.model.tvshow.TvShowList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

@@ -1,5 +1,4 @@
-package com.furkanekiz.tmdbclient.data
-
+package com.furkanekiz.tmdbclient.data.model.artist
 
 import com.google.gson.annotations.SerializedName
 

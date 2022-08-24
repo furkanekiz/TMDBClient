@@ -1,7 +1,6 @@
-package com.furkanekiz.tmdbclient.data
+package com.furkanekiz.tmdbclient.data.model.movie
 
 
-import com.furkanekiz.tmdbclient.data.Movie
 import com.google.gson.annotations.SerializedName
 
 data class MovieList(
