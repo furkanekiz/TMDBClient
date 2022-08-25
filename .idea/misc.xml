@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Furkan/AndroidProjects/TMDBClient/app/src/main/res/drawable/btn_rounded.xml" value="0.243" />
+        <entry key="..\:/Furkan/AndroidProjects/TMDBClient/app/src/main/res/drawable/ic_launcher_background.xml" value="0.243" />
         <entry key="..\:/Furkan/AndroidProjects/TMDBClient/app/src/main/res/layout/ac_main.xml" value="0.21557971014492755" />
+        <entry key="..\:/Furkan/AndroidProjects/TMDBClient/app/src/main/res/layout/fr_artist.xml" value="0.17798913043478262" />
+        <entry key="..\:/Furkan/AndroidProjects/TMDBClient/app/src/main/res/layout/fr_home.xml" value="0.2" />
+        <entry key="..\:/Furkan/AndroidProjects/TMDBClient/app/src/main/res/layout/fr_movie.xml" value="0.17798913043478262" />
+        <entry key="..\:/Furkan/AndroidProjects/TMDBClient/app/src/main/res/layout/fr_tv_show.xml" value="0.17798913043478262" />
       </map>
     </option>
   </component>

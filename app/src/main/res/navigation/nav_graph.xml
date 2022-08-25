@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FRHome">
+
+    <fragment
+        android:id="@+id/FRHome"
+        android:name="com.furkanekiz.tmdbclient.presentation.FRHome"
+        android:label="fr_home"
+        tools:layout="@layout/fr_home" >
+        <action
+            android:id="@+id/action_FRHome_to_FRMovie"
+            app:destination="@id/FRMovie" />
+        <action
+            android:id="@+id/action_FRHome_to_FRTvShow"
+            app:destination="@id/FRTvShow" />
+        <action
+            android:id="@+id/action_FRHome_to_FRArtist"
+            app:destination="@id/FRArtist" />
+    </fragment>
+    <fragment
+        android:id="@+id/FRMovie"
+        android:name="com.furkanekiz.tmdbclient.presentation.movie.FRMovie"
+        android:label="fr_movie"
+        tools:layout="@layout/fr_movie" />
+    <fragment
+        android:id="@+id/FRTvShow"
+        android:name="com.furkanekiz.tmdbclient.presentation.tvshow.FRTvShow"
+        android:label="fr_tv_show"
+        tools:layout="@layout/fr_tv_show" />
+    <fragment
+        android:id="@+id/FRArtist"
+        android:name="com.furkanekiz.tmdbclient.presentation.artist.FRArtist"
+        android:label="fr_artist"
+        tools:layout="@layout/fr_artist"/>
+</navigation>
