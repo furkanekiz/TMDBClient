@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="3.0"
+        tools:context=".presentation.ACHome">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMovies"
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_rounded"
+            android:padding="15dp"
+            android:text="Movies"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTvShows"
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_rounded"
+            android:padding="15dp"
+            android:text="Tv Shows"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnArtists"
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_rounded"
+            android:padding="15dp"
+            android:text="Artists"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+<!--        <androidx.fragment.app.FragmentContainerView-->
+<!--            android:id="@+id/fragmentContainerView"-->
+<!--            android:name="androidx.navigation.fragment.NavHostFragment"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            app:defaultNavHost="true"-->
+<!--            app:navGraph="@navigation/nav_graph" />-->
+    </LinearLayout>
+</layout>

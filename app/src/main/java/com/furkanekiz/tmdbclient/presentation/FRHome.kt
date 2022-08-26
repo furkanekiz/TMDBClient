@@ -24,7 +24,7 @@ class FRHome : Fragment() {
     ): View {
         // Inflate the layout for this fragment
         binding = DataBindingUtil.inflate(inflater, R.layout.fr_home, container, false)
-
+/*
         binding.btnMovies.setOnClickListener {
             it.findNavController().navigate(R.id.action_FRHome_to_FRMovie)
         }
@@ -35,7 +35,7 @@ class FRHome : Fragment() {
 
         binding.btnArtists.setOnClickListener {
             it.findNavController().navigate(R.id.action_FRHome_to_FRArtist)
-        }
+        }*/
 
         return binding.root
     }
